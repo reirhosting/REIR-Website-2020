@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^reir\.ie [NC]
+RewriteRule ^(.*)$ http://www.reir.ie/$1 [L,R=301,NC]
